@@ -51,9 +51,9 @@ class Rectangle(Dimension):
         return A
 
     def __str__(self):
-        ctn = ""
+        pug = ""
         if self.width == 0 or self.height == 0:
-            return ctn
+            return pug
         for e in range(self.height):
             pug += '#' * self.width
             if e != self.height - 1:
