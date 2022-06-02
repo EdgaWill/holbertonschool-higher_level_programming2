@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Use the module the line and computers metrics
+""" Use The module for reads stdin line by line and computers metrics
 """
 
 
