@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const { get } = require('axios').default;
+const { get } =require('axios').default;
 
 get(process.argv[2])
   .then(({ status }) => console.log(`code: ${status}`))
